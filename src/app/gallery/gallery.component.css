@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:gainsboro;
+  }
+  
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image {
+    flex: 0 0 calc(33.33% - 20px); 
+    margin: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-info {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  
+  .image-info h3 {
+    margin-top: 0;
+  }
+  
+  .image-info p {
+    margin: 5px 0;
+  }
+  div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .title-box {
+        background-color: #f2f2f2; 
+        padding: 20px; 
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+        width: 100%; 
+        box-sizing: border-box; 
+    }
+    
+    .title {
+        font-size: 36px; 
+        text-align: center; 
+    }
+
+    .add-to-cart-btn {
+        background-color:burlywood;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        display: inline-block;
+      }
+    
+
+      .add-to-cart-btn:hover {
+        background-color:rgb(224, 197, 121);
+      }
+
+
+.container {
+  background-color: #f2f2f2; 
+  padding: 106px; 
+  border-radius: 10px; 
+  display: flex; 
+  justify-content:right; 
+  align-items: center; 
+  margin-top: 20px;
+}
+
+.header {
+  font-size: 60px; 
+  color: #333;
+  margin: 0;
+  text-align: left;
+  margin-bottom: 20px;
+  padding-right: 50px;
+}

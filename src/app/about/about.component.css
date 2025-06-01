@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://previews.123rf.com/images/bantiqvision/bantiqvision2001/bantiqvision200100050/138555066-abstract-stylish-digital-marble-backgrounds-elegant-and-feminine-modern-backdrop-soft-neutral-pink.jpg'); /* Replace 'background.jpg' with your actual background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+  h1 {
+    color: white; 
+  }
+
+  p {
+    line-height: 1.6;
+  }
+
+  .team-member {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #fff;
+  }
+
+  .team-member:last-child {
+    border-bottom: none;
+  }
+
+  .team-member img {
+    border-radius: 50%;
+    max-width: 100px;
+    margin-right: 20px;
+    float: left;
+  }
+
+  .team-member .info {
+    overflow: hidden;
+  }
+
+  .team-member h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  .team-member p {
+    margin: 0;
+  }
+  a {
+    color: white; 
+    text-decoration: none; 
+  }

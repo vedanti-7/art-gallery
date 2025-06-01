@@ -1,0 +1,91 @@
+body {
+    font-family: "Raleway", Arial, sans-serif;
+    background-color: gainsboro;
+  }
+  
+  .w3-row img {
+    margin-bottom: -8px;
+  }
+  
+  .w3-title {
+    font-size: 300%; 
+    color: #333; 
+    text-decoration: none; 
+    font-weight: bold; 
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(251, 247, 247);
+  }
+  
+  .w3-title-container {
+    padding: 10px 20px; 
+    border-radius: 5px; 
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 106px; 
+    border-radius: 10px; 
+    display: flex; 
+    justify-content: right; 
+    align-items: center; 
+    margin-top: 20px;
+  }
+  
+  .header {
+    font-size: 60px; 
+    color: #333; 
+    margin: 0;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-right: 50px;
+  }
+ 
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+  
+  .footer-content {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+  }
+  .footer-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .footer-content img {
+    margin-bottom: 20px;
+  }
+  
+  .footer-content form {
+    width: 100%;
+  }
+  
+  .footer-content form p {
+    margin-bottom: 20px;
+  }
+  
+  .w3-input.w3-border {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .w3-button.w3-block {
+    width: 100%;
+    padding: 15px;
+  }
